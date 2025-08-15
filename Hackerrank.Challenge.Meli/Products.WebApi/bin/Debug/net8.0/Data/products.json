@@ -1,0 +1,29 @@
+[
+  {
+    "Id": 1,
+    "Name": "Laptop Pro 15",
+    "ImageUrl": "https://example.com/images/laptop-pro-15.jpg",
+    "Description": "Laptop de alto rendimiento para profesionales.",
+    "Price": 1599.99,
+    "Rating": 4.7,
+    "Specifications": "CPU: i7, RAM: 16GB, SSD: 512GB"
+  },
+  {
+    "Id": 2,
+    "Name": "Smartphone X",
+    "ImageUrl": "https://example.com/images/smartphone-x.jpg",
+    "Description": "Tel\u00E9fono inteligente con pantalla OLED.",
+    "Price": 899.50,
+    "Rating": 4.5,
+    "Specifications": "Pantalla: 6.1\u0027\u0027, C\u00E1mara: 48MP, Bater\u00EDa: 4000mAh"
+  },
+  {
+    "Id": 3,
+    "Name": "string",
+    "ImageUrl": "string",
+    "Description": "string",
+    "Price": 0,
+    "Rating": 0,
+    "Specifications": "string"
+  }
+]
