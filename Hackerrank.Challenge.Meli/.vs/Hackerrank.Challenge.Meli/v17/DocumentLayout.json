@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\dataaccess\\accessjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\dataaccess\\accessjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\bussiness\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\bussiness\\bussinessexception\\productnotexistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\bussiness\\bussinessexception\\productnotexistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 346,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -48,14 +48,14 @@
               "RelativeDocumentMoniker": "Products.WebApi\\DataAccess\\AccessJson.cs",
               "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\DataAccess\\AccessJson.cs",
               "RelativeToolTip": "Products.WebApi\\DataAccess\\AccessJson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-15T17:02:58.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "Products.WebApi\\appsettings.json",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductNotExistException.cs",
               "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Bussiness\\BussinessException\\ProductNotExistException.cs",
               "RelativeDocumentMoniker": "Products.WebApi\\Bussiness\\BussinessException\\ProductNotExistException.cs",
@@ -80,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductInvalidDataException.cs",
               "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Bussiness\\BussinessException\\ProductInvalidDataException.cs",
               "RelativeDocumentMoniker": "Products.WebApi\\Bussiness\\BussinessException\\ProductInvalidDataException.cs",
@@ -92,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProductsService.cs",
               "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Bussiness\\ProductsService.cs",
               "RelativeDocumentMoniker": "Products.WebApi\\Bussiness\\ProductsService.cs",
@@ -104,15 +104,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Products.WebApi\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Products.WebApi\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T16:55:41.033Z"
+              "WhenOpened": "2025-08-15T16:55:41.033Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

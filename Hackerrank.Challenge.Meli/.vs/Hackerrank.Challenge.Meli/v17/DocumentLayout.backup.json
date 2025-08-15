@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\dataaccess\\accessjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\dataaccess\\accessjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\dataaccess\\accessjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\dataaccess\\accessjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\bussiness\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,12 +41,8 @@
               "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccessJson.cs",
               "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\DataAccess\\AccessJson.cs",
               "RelativeDocumentMoniker": "Products.WebApi\\DataAccess\\AccessJson.cs",
@@ -59,15 +55,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "Products.WebApi\\appsettings.json",
               "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\appsettings.json",
               "RelativeToolTip": "Products.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-15T17:00:37.493Z"
+              "WhenOpened": "2025-08-15T17:00:37.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -116,6 +113,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-15T16:55:41.033Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         },

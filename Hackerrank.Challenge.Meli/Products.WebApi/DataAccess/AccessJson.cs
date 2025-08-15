@@ -9,7 +9,7 @@ namespace Products.WebApi.DataAccess
         public AccessJson(IConfiguration configuration)
         {
             _filePath = configuration["ProductsFilePath"] 
-                ?? throw new Exception("ProductsFilePath no está configurado en appsettings.json");
+                ?? throw new Exception("ProductsFilePath is not set to appsettings.json");
         }
 
         public async Task<List<Product>> ReadProductsAsync()
