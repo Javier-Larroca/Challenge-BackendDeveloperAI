@@ -1,0 +1,75 @@
+
+1. Item Comparison
+Objective
+Build a simplified backend API that supplies product details for use in an item comparison feature. Your implementation should follow established backend best practices, providing clear and efficient endpoints to retrieve the required data for product comparisons
+Requirements
+Backend: API Development
+API Endpoint:
+• Build a basic RESTful API that returns details for multiple items to be compared.
+• The API should provide fields such as product name, image URL, description, price, rating, and specifications.
+• Include basic error handling and inline comments to explain your logic.
+Stack:
+• You can use any backend technology or framework of your choice
+• Do not use real databases, persist everything in local JSON or CSV files
+Non-functional requirements:
+Special consideration will be given to good practices in error handling, documentation, testing, and any other relevant non-functional aspects you choose to demonstrate
+Tool Usage
+Allowed Tools: You may use and are encouraged to use GenAl tools, agentic IDEs, and other code assistance tools to help generate ideas or code.
+
+Documentation & strategic overview
+Please include a brief README o Diagram (optional) that explains your API design, main endpoints, setup instructions, and any key architectural decisions you made during development. Technical strategy:
+Detail the chosen technology stack for backend
+Explain how GenAl and modern development tools are integrated to improve efficiency
+4. Submission
+Provide zipped project folder. This must include the project plan document.
+It must contain a run.md explaining how to run the project.
+In case any Al productivity tool was used, it is greatly appreciated if you can share the different prompts that were used on prompts.md inside the project.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Comparación de Artículos
+
+Objetivo
+Construir una API backend simplificada que suministre detalles de productos para ser usada en una función de comparación de artículos. Tu implementación debe seguir las mejores prácticas establecidas para el backend, proporcionando endpoints claros y eficientes para recuperar los datos necesarios para las comparaciones de productos.
+
+Requisitos
+
+Backend: Desarrollo de API
+Endpoint de la API:
+
+Construir una API RESTful básica que devuelva detalles de múltiples artículos a comparar.
+
+La API debe proporcionar campos como: nombre del producto, URL de la imagen, descripción, precio, calificación y especificaciones.
+
+Incluir manejo básico de errores y comentarios en línea para explicar tu lógica.
+
+Tecnología (Stack):
+
+Puedes usar cualquier tecnología o framework de backend que prefieras.
+
+No usar bases de datos reales; persistir todo en archivos JSON o CSV locales.
+
+Requisitos no funcionales:
+Se valorará especialmente el uso de buenas prácticas en manejo de errores, documentación, pruebas y cualquier otro aspecto no funcional relevante que elijas demostrar.
+
+Uso de herramientas
+Herramientas permitidas: Puedes y se recomienda usar herramientas GenAI, IDEs con asistencia inteligente y otras herramientas de asistencia de código para ayudar a generar ideas o código.
+
+Documentación y visión estratégica
+Incluye un breve archivo README o un diagrama (opcional) que explique el diseño de tu API, los endpoints principales, instrucciones de configuración y cualquier decisión arquitectónica clave que hayas tomado durante el desarrollo.
+
+Estrategia técnica:
+
+Detalla la tecnología backend elegida.
+
+Explica cómo se integraron herramientas GenAI y de desarrollo moderno para mejorar la eficiencia.
+
+4. Entrega
+
+Proporcionar la carpeta del proyecto comprimida en un archivo .zip.
+
+Esta debe incluir el documento del plan del proyecto.
+
+Debe contener un archivo run.md explicando cómo ejecutar el proyecto.
+
+En caso de que se haya usado alguna herramienta de productividad con IA, se agradecerá que compartas los diferentes prompts usados en un archivo prompts.md dentro del proyecto.
