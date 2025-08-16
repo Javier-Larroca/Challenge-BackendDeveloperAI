@@ -3,8 +3,18 @@ using Products.WebApi.Models;
 
 namespace Products.WebApi.Mappers
 {
+    /// <summary>
+    /// Mapper estático para convertir entre entidades Product y DTOs
+    /// Proporciona métodos de extensión para mapeo automático
+    /// </summary>
     public static class ProductMapper
     {
+        /// <summary>
+        /// Convierte un ProductRequestDTO a entidad Product
+        /// Método de extensión para mapeo de entrada de datos
+        /// </summary>
+        /// <param name="productDTO">DTO de entrada con datos del producto</param>
+        /// <returns>Entidad Product mapeada</returns>
         public static Product ToProduct(this ProductRequestDTO productDTO)
         {
             return new Product
@@ -18,6 +28,12 @@ namespace Products.WebApi.Mappers
             };
         }
 
+        /// <summary>
+        /// Convierte una entidad Product a ProductResponseDTO
+        /// Método de extensión para mapeo de salida de datos
+        /// </summary>
+        /// <param name="product">Entidad Product a convertir</param>
+        /// <returns>DTO de respuesta con datos del producto</returns>
         public static ProductResponseDTO ToResponse(this Product product)
         {
             return new ProductResponseDTO

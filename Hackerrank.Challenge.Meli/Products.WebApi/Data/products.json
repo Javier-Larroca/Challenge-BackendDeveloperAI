@@ -1,47 +1,74 @@
 [
   {
     "Id": 1,
-    "Name": "Laptop Pro 15",
-    "ImageUrl": "https://example.com/images/laptop-pro-15.jpg",
-    "Description": "Laptop de alto rendimiento para profesionales.",
-    "Price": 1599.99,
-    "Rating": 4.7,
-    "Specifications": "CPU: i7, RAM: 16GB, SSD: 512GB"
+    "Name": "MacBook Pro 16\" M3 Pro",
+    "ImageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1697311054290",
+    "Description": "Laptop profesional con chip M3 Pro, pantalla Liquid Retina XDR de 16 pulgadas, hasta 22 horas de batería. Ideal para desarrolladores, diseñadores y profesionales creativos.",
+    "Price": 2499.99,
+    "Rating": 4.8,
+    "Specifications": "Chip: M3 Pro, RAM: 18GB, SSD: 512GB, Pantalla: 16\" Liquid Retina XDR, Batería: 22 horas"
   },
   {
     "Id": 2,
-    "Name": "Smartphone X",
-    "ImageUrl": "https://example.com/images/smartphone-x.jpg",
-    "Description": "Tel\u00E9fono inteligente con pantalla OLED.",
-    "Price": 899.50,
-    "Rating": 4.5,
-    "Specifications": "Pantalla: 6.1\u0027\u0027, C\u00E1mara: 48MP, Bater\u00EDa: 4000mAh"
+    "Name": "iPhone 15 Pro Max",
+    "ImageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692845702708",
+    "Description": "Smartphone premium con chip A17 Pro, cámara triple de 48MP, pantalla Super Retina XDR de 6.7 pulgadas. El iPhone más avanzado hasta la fecha.",
+    "Price": 1199.99,
+    "Rating": 4.7,
+    "Specifications": "Chip: A17 Pro, RAM: 8GB, Almacenamiento: 256GB, Pantalla: 6.7\" Super Retina XDR, Cámara: 48MP triple"
   },
   {
     "Id": 3,
-    "Name": "string 2",
-    "ImageUrl": "string",
-    "Description": "string",
-    "Price": 0,
-    "Rating": 0,
-    "Specifications": "string"
+    "Name": "Sony WH-1000XM5",
+    "ImageUrl": "https://electronics.sony.com/image/5d02da5df552836db89418d3c5c8b5f5?fmt=png-alpha&wid=720&hei=720",
+    "Description": "Auriculares inalámbricos con cancelación de ruido líder en la industria, hasta 30 horas de batería, sonido Hi-Res Audio. Los mejores auriculares para viajes y trabajo.",
+    "Price": 399.99,
+    "Rating": 4.9,
+    "Specifications": "Cancelación de ruido: Sí, Batería: 30 horas, Conectividad: Bluetooth 5.2, Peso: 250g, Sonido: Hi-Res Audio"
   },
   {
     "Id": 4,
-    "Name": "string",
-    "ImageUrl": "string",
-    "Description": "string",
-    "Price": 0,
-    "Rating": 0,
-    "Specifications": "string"
+    "Name": "Nike Air Max 270",
+    "ImageUrl": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/awj8rdnqxniqqk0xpgze/air-max-270-shoe-KkLcGR.png",
+    "Description": "Zapatillas deportivas con tecnología Air Max, suela de goma duradera, diseño moderno y cómodo. Perfectas para running y uso diario.",
+    "Price": 150.00,
+    "Rating": 4.6,
+    "Specifications": "Material: Malla transpirable, Suela: Goma Air Max, Peso: 320g, Uso: Running/Diario"
   },
   {
     "Id": 5,
-    "Name": "string",
-    "ImageUrl": "https://s1.significados.com/foto/producto-og.jpg",
-    "Description": "string",
-    "Price": 5,
-    "Rating": 10,
-    "Specifications": "string"
+    "Name": "Samsung 65\" QLED 4K TV",
+    "ImageUrl": "https://images.samsung.com/is/image/samsung/p6pim/latin/qa65q80cakxpa/gallery/latin-qled-q80c-qa65q80cakxpa-537234-qa65q80cakxpa-537234001-frontblack-thumb-537234001?$130_103_PNG$",
+    "Description": "Televisor QLED 4K con tecnología Quantum Dot, HDR10+, Smart TV con Tizen OS. Imagen cristalina y colores vibrantes para la mejor experiencia de entretenimiento.",
+    "Price": 1299.99,
+    "Rating": 4.5,
+    "Specifications": "Resolución: 4K UHD, Tecnología: QLED, Tamaño: 65\", HDR: HDR10+, Smart TV: Tizen OS"
+  },
+  {
+    "Id": 6,
+    "Name": "Canon EOS R6 Mark II",
+    "ImageUrl": "https://www.canon.com.mx/-/media/images/canon/products/cameras/eos-r/eos-r6-mark-ii/eos-r6-mark-ii-hero.ashx?h=600&w=800&hash=8A8A8A8A8A8A8A8A8A8A8A8A8A8A8A8A8A",
+    "Description": "Cámara mirrorless full-frame con sensor CMOS de 24.2MP, grabación 4K 60p, estabilización de imagen de 5 ejes. Ideal para fotografía profesional y videografía.",
+    "Price": 2499.99,
+    "Rating": 4.8,
+    "Specifications": "Sensor: 24.2MP Full-Frame CMOS, Video: 4K 60p, Estabilización: 5 ejes, Conectividad: Wi-Fi/Bluetooth"
+  },
+  {
+    "Id": 7,
+    "Name": "PlayStation 5",
+    "ImageUrl": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21",
+    "Description": "Consola de videojuegos de nueva generación con SSD ultra-rápido, ray tracing, 4K gaming. La consola más potente de Sony con gráficos increíbles.",
+    "Price": 499.99,
+    "Rating": 4.7,
+    "Specifications": "CPU: AMD Zen 2, GPU: AMD RDNA 2, Almacenamiento: 825GB SSD, Resolución: 4K, Ray Tracing: Sí"
+  },
+  {
+    "Id": 8,
+    "Name": "Dell XPS 13 Plus",
+    "ImageUrl": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dellwww/products/laptops-and-2-in-1s/xps-13-plus-9320/media-gallery/xs9320t-xnb-laptop-lf-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=402&qlt=100,1&resMode=sharp2&size=402,402",
+    "Description": "Laptop ultrabook premium con procesador Intel 13th Gen, pantalla InfinityEdge de 13.4 pulgadas, diseño minimalista. Perfecta para profesionales y estudiantes.",
+    "Price": 1299.99,
+    "Rating": 4.6,
+    "Specifications": "CPU: Intel 13th Gen i7, RAM: 16GB, SSD: 512GB, Pantalla: 13.4\" 4K OLED, Peso: 1.2kg"
   }
 ]

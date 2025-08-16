@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ge8QAZ5136M=",
+  "dgSpecHash": "Y0hoDshkTxE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Products.WebApi.csproj",
+  "projectFilePath": "C:\\Proyectos\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Products.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\javie\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\javie\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",

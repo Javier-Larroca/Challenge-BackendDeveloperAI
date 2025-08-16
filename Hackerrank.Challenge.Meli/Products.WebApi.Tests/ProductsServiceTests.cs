@@ -9,6 +9,10 @@ using Xunit;
 
 namespace Products.WebApi.Tests
 {
+    /// <summary>
+    /// Tests unitarios para ProductsService
+    /// Cubre todos los métodos CRUD y casos de error
+    /// </summary>
     public class ProductsServiceTests
     {
         private readonly Mock<IAccessJson> _mockAccessJson;
@@ -606,5 +610,184 @@ namespace Products.WebApi.Tests
             validationResults.Should().Contain(v => v.MemberNames.Contains("Description"));
             validationResults.Should().Contain(v => v.MemberNames.Contains("Specifications"));
         }
+
+        #region Tests para GetProductsByIds (Endpoint de Comparación)
+
+        /// <summary>
+        /// Test para el endpoint de comparación: verifica que se retornen los productos solicitados
+        /// </summary>
+        [Fact]
+        public async Task GetProductsByIds_WhenValidIdsProvided_ShouldReturnRequestedProducts()
+        {
+            // Arrange - Preparar datos de prueba
+            var products = new List<Product>
+            {
+                new Product { Id = 1, Name = "Producto 1", Description = "Descripción 1", Price = 100.00m, Rating = 4.5, ImageUrl = "url1", Specifications = "spec1" },
+                new Product { Id = 2, Name = "Producto 2", Description = "Descripción 2", Price = 200.00m, Rating = 4.0, ImageUrl = "url2", Specifications = "spec2" },
+                new Product { Id = 3, Name = "Producto 3", Description = "Descripción 3", Price = 300.00m, Rating = 4.8, ImageUrl = "url3", Specifications = "spec3" }
+            };
+
+            var requestedIds = new int[] { 1, 3 };
+            var expectedProducts = products.Where(p => requestedIds.Contains(p.Id)).ToList();
+
+            // Configurar mock para retornar productos de prueba
+            _mockAccessJson.Setup(x => x.ReadProductsAsync()).ReturnsAsync(products);
+
+            // Act - Ejecutar método bajo prueba
+            var result = await _productsService.GetProductsByIds(requestedIds);
+
+            // Assert - Verificar resultados
+            result.Should().NotBeNull();
+            result.Should().HaveCount(2);
+            result.Should().BeEquivalentTo(expectedProducts);
+            _mockAccessJson.Verify(x => x.ReadProductsAsync(), Times.Once);
+        }
+
+        [Fact]
+        public async Task GetProductsByIds_WhenAllProductsRequested_ShouldReturnAllProducts()
+        {
+            // Arrange
+            var products = new List<Product>
+            {
+                new Product { Id = 1, Name = "Producto 1", Description = "Descripción 1", Price = 100.00m, Rating = 4.5, ImageUrl = "url1", Specifications = "spec1" },
+                new Product { Id = 2, Name = "Producto 2", Description = "Descripción 2", Price = 200.00m, Rating = 4.0, ImageUrl = "url2", Specifications = "spec2" }
+            };
+
+            var requestedIds = new int[] { 1, 2 };
+
+            _mockAccessJson.Setup(x => x.ReadProductsAsync()).ReturnsAsync(products);
+
+            // Act
+            var result = await _productsService.GetProductsByIds(requestedIds);
+
+            // Assert
+            result.Should().NotBeNull();
+            result.Should().HaveCount(2);
+            result.Should().BeEquivalentTo(products);
+            _mockAccessJson.Verify(x => x.ReadProductsAsync(), Times.Once);
+        }
+
+        [Fact]
+        public async Task GetProductsByIds_WhenEmptyIdsArrayProvided_ShouldThrowProductInvalidDataException()
+        {
+            // Arrange
+            var emptyIds = new int[0];
+
+            // Act & Assert
+            var exception = await Assert.ThrowsAsync<ProductInvalidDataException>(
+                () => _productsService.GetProductsByIds(emptyIds));
+
+            exception.Message.Should().Be("At least one product ID must be provided for comparison.");
+            _mockAccessJson.Verify(x => x.ReadProductsAsync(), Times.Never);
+        }
+
+        [Fact]
+        public async Task GetProductsByIds_WhenNullIdsArrayProvided_ShouldThrowProductInvalidDataException()
+        {
+            // Arrange
+            int[]? nullIds = null;
+
+            // Act & Assert
+            var exception = await Assert.ThrowsAsync<ProductInvalidDataException>(
+                () => _productsService.GetProductsByIds(nullIds!));
+
+            exception.Message.Should().Be("At least one product ID must be provided for comparison.");
+            _mockAccessJson.Verify(x => x.ReadProductsAsync(), Times.Never);
+        }
+
+        [Fact]
+        public async Task GetProductsByIds_WhenSomeIdsDoNotExist_ShouldThrowProductNotExistException()
+        {
+            // Arrange
+            var products = new List<Product>
+            {
+                new Product { Id = 1, Name = "Producto 1", Description = "Descripción 1", Price = 100.00m, Rating = 4.5, ImageUrl = "url1", Specifications = "spec1" },
+                new Product { Id = 2, Name = "Producto 2", Description = "Descripción 2", Price = 200.00m, Rating = 4.0, ImageUrl = "url2", Specifications = "spec2" }
+            };
+
+            var requestedIds = new int[] { 1, 3, 5 }; // IDs 3 y 5 no existen
+
+            _mockAccessJson.Setup(x => x.ReadProductsAsync()).ReturnsAsync(products);
+
+            // Act & Assert
+            var exception = await Assert.ThrowsAsync<ProductNotExistException>(
+                () => _productsService.GetProductsByIds(requestedIds));
+
+            exception.Message.Should().Be("The following products do not exist: 3, 5");
+            _mockAccessJson.Verify(x => x.ReadProductsAsync(), Times.Once);
+        }
+
+        [Fact]
+        public async Task GetProductsByIds_WhenAllIdsDoNotExist_ShouldThrowProductNotExistException()
+        {
+            // Arrange
+            var products = new List<Product>
+            {
+                new Product { Id = 1, Name = "Producto 1", Description = "Descripción 1", Price = 100.00m, Rating = 4.5, ImageUrl = "url1", Specifications = "spec1" }
+            };
+
+            var requestedIds = new int[] { 999, 888 }; // Ningún ID existe
+
+            _mockAccessJson.Setup(x => x.ReadProductsAsync()).ReturnsAsync(products);
+
+            // Act & Assert
+            var exception = await Assert.ThrowsAsync<ProductNotExistException>(
+                () => _productsService.GetProductsByIds(requestedIds));
+
+            exception.Message.Should().Be("The following products do not exist: 999, 888");
+            _mockAccessJson.Verify(x => x.ReadProductsAsync(), Times.Once);
+        }
+
+        [Fact]
+        public async Task GetProductsByIds_WhenSingleIdProvided_ShouldReturnSingleProduct()
+        {
+            // Arrange
+            var products = new List<Product>
+            {
+                new Product { Id = 1, Name = "Producto 1", Description = "Descripción 1", Price = 100.00m, Rating = 4.5, ImageUrl = "url1", Specifications = "spec1" },
+                new Product { Id = 2, Name = "Producto 2", Description = "Descripción 2", Price = 200.00m, Rating = 4.0, ImageUrl = "url2", Specifications = "spec2" }
+            };
+
+            var requestedIds = new int[] { 1 };
+            var expectedProduct = products.First(p => p.Id == 1);
+
+            _mockAccessJson.Setup(x => x.ReadProductsAsync()).ReturnsAsync(products);
+
+            // Act
+            var result = await _productsService.GetProductsByIds(requestedIds);
+
+            // Assert
+            result.Should().NotBeNull();
+            result.Should().HaveCount(1);
+            result.First().Should().BeEquivalentTo(expectedProduct);
+            _mockAccessJson.Verify(x => x.ReadProductsAsync(), Times.Once);
+        }
+
+        [Fact]
+        public async Task GetProductsByIds_WhenDuplicateIdsProvided_ShouldReturnUniqueProducts()
+        {
+            // Arrange
+            var products = new List<Product>
+            {
+                new Product { Id = 1, Name = "Producto 1", Description = "Descripción 1", Price = 100.00m, Rating = 4.5, ImageUrl = "url1", Specifications = "spec1" },
+                new Product { Id = 2, Name = "Producto 2", Description = "Descripción 2", Price = 200.00m, Rating = 4.0, ImageUrl = "url2", Specifications = "spec2" }
+            };
+
+            var requestedIds = new int[] { 1, 1, 2, 2 }; // IDs duplicados
+            var expectedProducts = products.Where(p => p.Id == 1 || p.Id == 2).ToList();
+
+            _mockAccessJson.Setup(x => x.ReadProductsAsync()).ReturnsAsync(products);
+
+            // Act
+            var result = await _productsService.GetProductsByIds(requestedIds);
+
+            // Assert
+            result.Should().NotBeNull();
+            result.Should().HaveCount(2);
+            result.Should().BeEquivalentTo(expectedProducts);
+            _mockAccessJson.Verify(x => x.ReadProductsAsync(), Times.Once);
+        }
+
+        #endregion
     }
 }
