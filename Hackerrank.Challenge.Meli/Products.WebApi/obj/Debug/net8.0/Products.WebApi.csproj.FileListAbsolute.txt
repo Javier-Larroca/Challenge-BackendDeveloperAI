@@ -27,7 +27,6 @@ C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.M
 C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.Meli\Products.WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.Meli\Products.WebApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.Meli\Products.WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.Meli\Products.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.Meli\Products.WebApi\obj\Debug\net8.0\Products.F7BDE3B8.Up2Date
 C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.Meli\Products.WebApi\obj\Debug\net8.0\Products.WebApi.dll
 C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.Meli\Products.WebApi\obj\Debug\net8.0\refint\Products.WebApi.dll

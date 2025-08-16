@@ -194,65 +194,89 @@
   "components": {
     "schemas": {
       "ProductRequestDTO": {
+        "required": [
+          "description",
+          "name",
+          "specifications"
+        ],
         "type": "object",
         "properties": {
           "name": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "description": {
+            "maxLength": 250,
+            "minLength": 1,
+            "type": "string"
           },
           "imageUrl": {
             "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
+            "format": "uri",
             "nullable": true
           },
           "price": {
+            "minimum": 0,01,
             "type": "number",
             "format": "double"
           },
           "rating": {
+            "maximum": 10,
+            "minimum": 0,
             "type": "number",
             "format": "double"
           },
           "specifications": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 250,
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false
       },
       "ProductResponseDTO": {
+        "required": [
+          "description",
+          "name",
+          "specifications"
+        ],
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
           "name": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "description": {
+            "maxLength": 250,
+            "minLength": 1,
+            "type": "string"
           },
           "imageUrl": {
             "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
+            "format": "uri",
             "nullable": true
           },
           "price": {
+            "minimum": 0,01,
             "type": "number",
             "format": "double"
           },
           "rating": {
+            "maximum": 10,
+            "minimum": 0,
             "type": "number",
             "format": "double"
           },
           "specifications": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 250,
+            "minLength": 1,
+            "type": "string"
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

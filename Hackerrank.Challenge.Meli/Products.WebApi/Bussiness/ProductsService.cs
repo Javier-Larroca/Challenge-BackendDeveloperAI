@@ -6,9 +6,9 @@ namespace Products.WebApi.Bussiness
 {
     public class ProductsService : IProductsService
     {
-        private readonly AccessJson _accessJson;
+        private readonly IAccessJson _accessJson;
 
-        public ProductsService(AccessJson accessJson)
+        public ProductsService(IAccessJson accessJson)
         {
             _accessJson = accessJson;
         }
@@ -35,14 +35,8 @@ namespace Products.WebApi.Bussiness
             return product;
         }
 
-
         public async Task UpdateProduct(int id, Product product)
         {
-            if (id != product.Id)
-            {
-                throw new ProductInvalidDataException("The id not the same as the body id.");
-            }
-
             var products = await _accessJson.ReadProductsAsync();
             var existingProduct = products.FirstOrDefault(p => p.Id == id);
 

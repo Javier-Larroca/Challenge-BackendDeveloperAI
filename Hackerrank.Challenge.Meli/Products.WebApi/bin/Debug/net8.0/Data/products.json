@@ -19,11 +19,29 @@
   },
   {
     "Id": 3,
+    "Name": "string 2",
+    "ImageUrl": "string",
+    "Description": "string",
+    "Price": 0,
+    "Rating": 0,
+    "Specifications": "string"
+  },
+  {
+    "Id": 4,
     "Name": "string",
     "ImageUrl": "string",
     "Description": "string",
     "Price": 0,
     "Rating": 0,
+    "Specifications": "string"
+  },
+  {
+    "Id": 5,
+    "Name": "string",
+    "ImageUrl": "https://s1.significados.com/foto/producto-og.jpg",
+    "Description": "string",
+    "Price": 5,
+    "Rating": 10,
     "Specifications": "string"
   }
 ]

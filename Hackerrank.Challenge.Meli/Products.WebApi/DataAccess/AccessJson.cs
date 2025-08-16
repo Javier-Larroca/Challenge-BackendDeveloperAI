@@ -3,7 +3,7 @@ using Products.WebApi.Models;
 
 namespace Products.WebApi.DataAccess
 {
-    public class AccessJson
+    public class AccessJson : IAccessJson
     {
         private readonly string _filePath;
         public AccessJson(IConfiguration configuration)

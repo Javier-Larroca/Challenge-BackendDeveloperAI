@@ -4,7 +4,7 @@ using Products.WebApi.DataAccess;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddSingleton<AccessJson>();
+builder.Services.AddSingleton<IAccessJson, AccessJson>();
 builder.Services.AddScoped<IProductsService, ProductsService>();
 builder.Services.AddControllers();
 
