@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\bussiness\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\dtos\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\dtos\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|Products.WebApi.Tests\\Products.WebApi.Tests.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi.tests\\productsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|Products.WebApi.Tests\\Products.WebApi.Tests.csproj|solutionrelative:products.webapi.tests\\productsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|c:\\users\\javie\\onedrive\\escritorio\\challenge - hackerrank\\hackerrank.challenge.meli\\products.webapi\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0965FFDC-8518-4416-81FF-40B0BF53FD6B}|Products.WebApi\\Products.WebApi.csproj|solutionrelative:products.webapi\\mappers\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +31,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         },
@@ -36,7 +48,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
@@ -46,22 +58,52 @@
               "RelativeDocumentMoniker": "Products.WebApi\\Bussiness\\ProductsService.cs",
               "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Bussiness\\ProductsService.cs",
               "RelativeToolTip": "Products.WebApi\\Bussiness\\ProductsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAASwC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:41:51.723Z",
+              "WhenOpened": "2025-08-16T18:00:04.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Products.WebApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Models\\Product.cs",
+              "RelativeToolTip": "Products.WebApi\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:57:19.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductMapper.cs",
+              "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Mappers\\ProductMapper.cs",
+              "RelativeDocumentMoniker": "Products.WebApi\\Mappers\\ProductMapper.cs",
+              "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\Mappers\\ProductMapper.cs",
+              "RelativeToolTip": "Products.WebApi\\Mappers\\ProductMapper.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:57:05.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\DTOs\\ProductRequestDTO.cs",
-              "RelativeDocumentMoniker": "Products.WebApi\\DTOs\\ProductRequestDTO.cs",
-              "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi\\DTOs\\ProductRequestDTO.cs",
-              "RelativeToolTip": "Products.WebApi\\DTOs\\ProductRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Title": "ProductsServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi.Tests\\ProductsServiceTests.cs",
+              "RelativeDocumentMoniker": "Products.WebApi.Tests\\ProductsServiceTests.cs",
+              "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Challenge - hackerrank\\Hackerrank.Challenge.Meli\\Products.WebApi.Tests\\ProductsServiceTests.cs",
+              "RelativeToolTip": "Products.WebApi.Tests\\ProductsServiceTests.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAqwKkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:33:20.66Z",
+              "WhenOpened": "2025-08-16T17:55:13.736Z",
               "EditorCaption": ""
             }
           ]

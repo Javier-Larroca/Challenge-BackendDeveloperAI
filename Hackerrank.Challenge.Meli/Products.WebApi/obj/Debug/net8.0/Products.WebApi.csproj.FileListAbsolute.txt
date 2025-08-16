@@ -34,3 +34,4 @@ C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.M
 C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.Meli\Products.WebApi\obj\Debug\net8.0\Products.WebApi.genruntimeconfig.cache
 C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.Meli\Products.WebApi\obj\Debug\net8.0\ref\Products.WebApi.dll
 C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.Meli\Products.WebApi\bin\Debug\net8.0\Data\products.json
+C:\Users\javie\OneDrive\Escritorio\Challenge - hackerrank\Hackerrank.Challenge.Meli\Products.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
